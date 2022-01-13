@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'Cloud Winners 2021 - DevOps Team'
+    title: 'Cloud Winners 2022 - DevOps Team'
     })
     res.status(200).end();
 })
